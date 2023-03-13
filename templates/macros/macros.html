@@ -1,0 +1,17 @@
+{% macro hudate(ts) %}
+    {{ ts
+        | date(format="%Y. %B %_d.")
+        | replace(from="January", to="január")
+        | replace(from="February", to="február")
+        | replace(from="March", to="március")
+        | replace(from="April", to="április")
+        | replace(from="May", to="május")
+        | replace(from="June", to="június")
+        | replace(from="July", to="július")
+        | replace(from="August", to="augusztus")
+        | replace(from="September", to="szeptember")
+        | replace(from="October", to="október")
+        | replace(from="November", to="november")
+        | replace(from="December", to="december")
+    }}
+{% endmacro %}

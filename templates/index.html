@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Szabadulás{% endblock %}
+
+{% block content -%}
+    <main>
+        <h1 class="site-title">Szabadulás</h1>
+
+        {% for year, posts in section.pages | group_by(attribute="year") %}
+        <h2>{{ year }}</h2>
+        <ul class="posts">
+            {% for post in posts %}
+                <li>
+                    <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
+                    • <small class="date">{{ post.date | date(format="%Y-%m-%d") }}</small>
+                </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+
+        {#
+        <h2>Kijárat</h2>
+        <ul class="links">
+            {% for link in section.extra.exit %}
+                <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+            {% endfor %}
+        </ul>
+        #}
+    </main>
+
+{% endblock content %}

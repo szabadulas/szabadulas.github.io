@@ -1,0 +1,17 @@
+# The URL the site will be built for
+base_url = "https://szabadulas.github.io"
+
+output_dir = "public"
+
+compile_sass = true
+build_search_index = false
+minify_html = true
+generate_feed = false
+
+[markdown]
+highlight_code = false
+render_emoji = false
+smart_punctuation = false
+
+[extra]
+# Put all your custom variables here

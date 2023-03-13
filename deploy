@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e -x
+
+# Jó helyen vagyunk?
+test -f config.toml
+
+./build
+
+cd public
+git init
+git add .
+git commit -m 'Deploy'
+git remote add szabadulas ../
+git push --force szabadulas master:gh-pages
