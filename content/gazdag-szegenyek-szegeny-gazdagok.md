@@ -43,7 +43,7 @@ De miért adna nekem Isten lelki kincseket,
 ha magamnak tartogatom azokat?
 Mi lesz akkor azokkal az emberekkel,
 akiknek én adhatnám tovább?
-Ahogyan mint Intenre vak és süket embernek
+Ahogyan mint Istenre vak és süket embernek
 előbb nekem is más emberek adták tovább
 az Istentől kapott lelki kincseiket,
 és adják ma is.
