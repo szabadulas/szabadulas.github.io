@@ -10,5 +10,4 @@ cd public
 git init
 git add .
 git commit -m 'Deploy'
-git remote add szabadulas ../
-git push --force szabadulas master:gh-pages
+git push --force 'https://github.com/szabadulas/szabadulas.github.io.git' master:gh-pages
