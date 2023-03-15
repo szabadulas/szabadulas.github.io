@@ -1,8 +1,18 @@
 #!/bin/bash
-set -e -x
+set -e
 
 # Jó helyen vagyunk?
 test -f config.toml
+
+if [ "$(git branch --show-current)" != main ]; then
+    echo "$0: Not on 'main' branch. Aborting."
+    exit 1
+fi
+
+if [ "$(git status --short)" != '' ]; then
+    echo "$0: 'main' branch has uncommitted changes. Aborting."
+    exit 1
+fi
 
 ./build
 
@@ -10,4 +20,7 @@ cd public
 git init
 git add .
 git commit -m 'Deploy'
-git push --force 'https://github.com/szabadulas/szabadulas.github.io.git' master:gh-pages
+git push --force ../ master:gh-pages
+
+cd ..
+git push --force origin gh-pages:gh-pages
