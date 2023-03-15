@@ -1,11 +1,10 @@
 // Colors
 $background: #f4ecd8;
 $tint: #000; // main text color
+$red: #cf5044;
 $dim: rgba($tint, 50%);
 $link_normal: #236b8e;
 $link_visited: #644172;
-$border-color: darken($background, 20%);
-$red: #cf5044;
 
 html { font-size: 16px; }
 @media screen and (min-width: 720px)  { html { font-size: 18px; } }
@@ -15,7 +14,7 @@ html { font-size: 16px; }
 
 html {
     margin: 0;
-    padding: 1.5rem;
+    padding: 1.5rem 0.75rem;
 
     border-top: 10px solid $red;
     background: $background;
@@ -38,7 +37,6 @@ main {
 }
 
 footer {
-    //border-top: 1px solid $border-color;
     margin: 0;
     padding: 0;
     text-align: center;
