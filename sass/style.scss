@@ -1,6 +1,7 @@
 // Colors
 $background: #f4ecd8;
 $tint: #000; // main text color
+$dim: rgba($tint, 50%);
 $link_normal: #236b8e;
 $link_visited: #644172;
 $border-color: darken($background, 20%);
@@ -102,11 +103,21 @@ h1.site-title {
     line-height: 1;
 }
 
-small, .small {
-    font-size: 0.875em;
-}
-.date {
-    color: lighten($tint, 50%);
+small, .small { font-size: 0.8em; }
+big, .big { font-size: 1.25em; }
+
+.date { color: $dim; }
+
+blockquote {
+    margin: 1.5rem 0;
+    padding: 0 0 0 0.75rem;
+    border-left: 0.25em solid rgba(#000, 25%);
+    /*
+    font-style: italic;
+    & i, & em {
+        font-style: normal;
+    }
+    */
 }
 
 ul.posts {
@@ -121,15 +132,3 @@ ul.posts {
     a { text-decoration: none; }
     a:hover { text-decoration: underline; }
 }
-
-ul.links {
-    margin: 0 0 0 1.5rem;
-    padding: 0;
-    list-style: "• ";
-    a { text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    li {
-        //margin: 1rem 0;
-    }
-}
-
