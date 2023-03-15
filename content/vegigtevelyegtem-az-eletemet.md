@@ -322,5 +322,5 @@ Erről majd legközelebb.
 <p class="date">2022. december 26. – 2023. március közepe</p>
 <p style="text-align: right;">
 Mohari András
-&#x3c;<kbd>mohari<span>&#x40;</span>freemail<span>&#46;</span>hu</kbd>&#x3e;
+&#x3c;<code>mohari<span>&#x40;</span>freemail<span>&#46;</span>hu</code>&#x3e;
 </p>
