@@ -17,10 +17,10 @@ fi
 ./build
 
 cd public
-git init
+git init -b main
 git add .
 git commit -m 'Deploy'
-git push --force ../ master:gh-pages
+git push --force ../ main:gh-pages
 
 cd ..
 git push --force origin gh-pages:gh-pages
