@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Nincs ilyen oldal (404-es hiba){% endblock %}
+{% block content -%}
+    <main>
+        <h1>Nincs ilyen oldal <small>(404-es hiba)</small></h1>
+        <p><em>Talán elgépelted a címét.</em></p>
+        <p><em>Vagy talán hibás hivatkozást követtél.</em></p>
+        <p>
+            Ha a <code>{{ config.base_url }}</code>
+            valamelyik oldaláról jutottál ide,
+            és segíteni szeretnél,
+            <a href="mailto&#x3a;Mohari&#x20;András&#32;&lt;mohari&#x40;freemail&#46;hu&gt;&#63;subject=404-es%20hiba">írd meg e-mailben</a>,
+            hogy melyik oldal melyik hivatkozását követve jutottál erre a hibaoldalra.
+        </p>
+        <p>
+           <a class="nav" href="/">Ugrás a főoldalra,</a> ahonnan a honlap minden oldala elérhető.</a>
+        </p>
+    </main>
+{%- endblock content %}

@@ -7,6 +7,5 @@ test -f config.toml
 rm -rf public
 zola build
 
-rm -f public/404.html
 find public -name '*.html' -print0 \
-    | xargs -0 -I@@ /bin/sed -i -E -e 's|https://szabadulas.github.io/|/|g' @@
+    | xargs -0 -I@@ /bin/sed -i -E -e 's|(=[\x22\x27]?)https://szabadulas.github.io/|\1/|g' @@
