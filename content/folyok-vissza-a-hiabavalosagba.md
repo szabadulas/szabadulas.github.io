@@ -52,3 +52,18 @@ A fenevad elvesz tőle minden esélyt.
 „<i>…de szabadíts meg a gonosztól.</i>”
 Az acsarkodó fenevadtól itt bent.
 Az éntől.
+
+* * *
+
+A lényeget meg csak most vettem észre.
+Azért tombol az én, a fenevad,
+mert napok óta nem részesült a lélek örömeiből.
+Se különös álmokból, se megértésekből.
+Ezekből élősködik.
+És amikor nem jut hozzájuk egy darabig,
+akkor előjön követelőzve.
+*Akarom!*
+Megmutatja magát.
+Hogy itt van még,
+nem tűnt el sehova.
+Nem tűnt el az *én akaratom*.
