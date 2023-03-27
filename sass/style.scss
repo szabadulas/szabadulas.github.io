@@ -69,16 +69,6 @@ a {
         border-bottom-color: $red;
     }
 }
-a.primary {
-    color: $tint;
-    padding: 2px 4px;
-    border: 2px solid $red;
-    border-radius: 8px;
-    &:hover {
-        color: $background;
-        background: $red;
-    }
-}
 
 h1 { font-size: 1.5625rem; line-height: 2.25rem; }
 h2 { font-size: 1.25rem; }
