@@ -29,17 +29,11 @@ body {
     line-height: 1.5rem;
 }
 
-section, main, header, footer { display: block; }
+section, main, header, footer, nav { display: block; }
 
-main {
-    margin: 3rem 0 4.5rem 0;
+header, main, footer {
+    margin: 3rem 0;
     padding: 0;
-}
-
-footer {
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }
 
 p {
@@ -63,42 +57,34 @@ A sorrend fontos:
     a:active
 */
 a {
-    text-decoration: underline;
-
-    &:link {
-        color: $link_normal;
-    }
-    &:visited {
-        color: $link_visited;
-    }
-    &:focus {}
-    &:hover {}
-    &:active {}
-}
-a.nav {
     text-decoration: none;
     color: $tint;
-    border-bottom: 4px solid $red;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba($tint, 20%);
 
     &:visited {
-        color: $tint;
     }
+    &:hover {
+        border-bottom-color: $red;
+    }
+}
+a.primary {
+    color: $tint;
+    padding: 2px 4px;
+    border: 2px solid $red;
+    border-radius: 8px;
     &:hover {
         color: $background;
         background: $red;
     }
 }
 
-h1 { font-size: 1.5rem; line-height: 2.25rem; }
+h1 { font-size: 1.5625rem; line-height: 2.25rem; }
 h2 { font-size: 1.25rem; }
 h1, h2 {
     font-weight: normal;
     margin: 3rem 0 1.5rem 0;
-    padding: 0;
-}
-
-header {
-    margin: 0;//-1.5rem -1.5rem 3rem -1.5rem;
     padding: 0;
 }
 h1.site-title {
@@ -114,10 +100,11 @@ b, strong { font-weight: 600; }
 
 hr {
     padding: 0;
-    margin: 0;
+    margin: 1.5rem 0;
     border: none;
     text-align: center;
     &:after {
+        font-family: monospace;
         content: "* * *";
         color: $dim;
     }
@@ -126,13 +113,7 @@ hr {
 blockquote {
     margin: 1.5rem 0;
     padding: 0 0 0 0.75rem;
-    border-left: 0.25em solid rgba(#000, 25%);
-    /*
-    font-style: italic;
-    & i, & em {
-        font-style: normal;
-    }
-    */
+    border-left: 0.25em solid rgba($tint, 20%);
 }
 
 ul.posts {
@@ -144,12 +125,8 @@ ul.posts {
         padding: 0 0 0 1.5rem;
         text-indent: -1.5rem;
     }
-    li + li { margin-top: 0.5rem; }
+    li + li { margin-top: 0.75rem; }
     a {
-        text-decoration: none;
         font-weight: 600;
-    }
-    a:hover {
-        border-bottom: 4px solid $red;
     }
 }
