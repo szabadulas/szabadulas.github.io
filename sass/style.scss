@@ -119,6 +119,9 @@ ul.posts {
     a {
         font-weight: 600;
     }
+    a:not(:hover) {
+        border: none;
+    }
 }
 
 body > footer > ul {
