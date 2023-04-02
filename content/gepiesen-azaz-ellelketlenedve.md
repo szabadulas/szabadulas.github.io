@@ -160,7 +160,7 @@ Harminc éve, tizenévesen, valósággal beleköltöztem a számítógépbe,
 ott lett az én otthonom.
 A világ nem nagyon tetszett.
 Na de a számítógép?
-Azon kapva kaptam,
+Az után kapva kaptam,
 mint serdülő fiú a farkához!
 És az eredmény, összességében?
 Elpazaroltam az Istentől kapott időt;
