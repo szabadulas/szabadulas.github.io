@@ -26,7 +26,7 @@ Marika válaszlevelével indult a hullám,
 és azután folytatódott, miután ő is
 és [Tibor] is megosztotta a honlapom címét.
 (Köszönöm nekik ezúton is!
-És [Attillának][Attila]!)
+És [Attilának][Attila]!)
 Ez az első eset, hogy bárkinek is szóltam róla.
 
 Ugyanakkor mégsem tudok mindebből semmit az öröm okának mondani.
