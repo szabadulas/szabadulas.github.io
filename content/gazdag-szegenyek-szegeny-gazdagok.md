@@ -33,7 +33,7 @@ Ugyanazzal a hozzáállással,
 amellyel éveken át számolgattam a pénzemet.
 Vezettem a legapróbb kiadást és bevételt is.
 A fogamhoz vertem a garast.
-Tisztára skót lettem.
+Tisztára zsugori lettem.
 Ugyanez volt a hozzáállásom akkor is,
 amikor a megvilágosodást kerestem.
 De jó volna szépen megszabadulnom már testben a lét forgatagából,
