@@ -59,9 +59,11 @@ Saját elképzelésből, józan észből
 szabadulni tőle olyan,
 mint az álomban a földön kitérni az állat elől
 (elsőre is csak hajszálnyira sikerült).
-Ráadásul mindezt önerőből csinálni olyan,
-mint rohangálni tovább a földön előle
-(előbb-utóbb felnyársalt volna).
+Ráadásul a szabadulást önerőből megvalósítani olyan,
+mint rohangálni tovább a földön az állat elől
+(ha nagy nehezen félre is ugrálok,
+előbb-utóbb jól kifáradok,
+aztán ott maradok felnyársalva, felöklelve, megtaposva).
 
 Még valami.
 Nem saját ötletből ugrottam a magasba.
