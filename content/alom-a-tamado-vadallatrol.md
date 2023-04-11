@@ -49,3 +49,27 @@ Mindig abból lett minden nyomorom.
 Az én akaratomból,
 az én elvárásaimból.
 Az énben, énbennem nincsen semmi, de semmi jó.
+
+* * *
+
+**Később még az jött,**
+hogy amiként az állat nem tágított,
+úgy nem tágít a fenevad én sem.
+Saját elképzelésből, józan észből
+szabadulni tőle olyan,
+mint az álomban a földön kitérni az állat elől
+(elsőre is csak hajszálnyira sikerült).
+Ráadásul mindezt önerőből csinálni olyan,
+mint rohangálni tovább a földön előle
+(előbb-utóbb felnyársalt volna).
+
+Még valami.
+Nem saját ötletből ugrottam a magasba.
+Az állat akkora volt, mint egy megtermett őzbak,
+magamtól meg sem próbáltam volna fölébe ugrani.
+Csak úgy megtettem.
+A levegőben maradás Isten oltalma volt,
+de még az oda juttató ugráshoz is
+Istenre kellett bíznom magamat,
+gondolkodás nélkül megtéve,
+amire a pillanatban indított…
