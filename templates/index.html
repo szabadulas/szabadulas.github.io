@@ -6,17 +6,19 @@
     <main>
         <h1 class="site-title">Szabadulás</h1>
 
-        {% set MONTHS = [ "", "január", "február", "március", "április", "május", "június", "július", "augusztus", "szeptember", "november", "december"] %}
-        {% for year, posts in section.pages | group_by(attribute="year") %}
-            <h2>{{ year }}</h2>
-            <ul class="posts">
-                {% for post in posts %}
-                    <li>
-                        <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
-                        • <small class="date">{{ post.date | date(format="%Y. %m. %d.") }}</small>
-                    </li>
-                {% endfor %}
-            </ul>
+        {% set MONTHS = [ "", "januárja", "februárja", "márciusa", "áprilisa", "májusa", "júniusa", "júliusa", "augusztusa", "szeptembere", "novembere", "decembere"] %}
+        {% for year, year_posts in section.pages | group_by(attribute="year") %}
+            {% for month, posts in year_posts | group_by(attribute="month") %}
+                <h2>{{ year }} {{ MONTHS[month] }}</h2>
+                <ul class="posts">
+                    {% for post in posts %}
+                        <li>
+                            <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
+                            • <small class="date">{{ post.date | date(format="%Y. %m. %d.") }}</small>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
         {% endfor %}
 
         {{ section.content | safe }}
