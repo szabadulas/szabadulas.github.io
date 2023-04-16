@@ -90,8 +90,8 @@ de a rosszra mindig kész.
 Bár úgy meg tudnám utálni magamat,
 ahogy Jézus mondta:
 „<i>Ha valaki én hozzám jő,
-és meg nem gyűlöli az ő atyját és anyját, feleségét és gyermekeit, fitestvéreit és nőtestvéreit,
-**sőt még a maga lelkét is,**
+és **meg nem gyűlöli** az ő atyját és anyját, feleségét és gyermekeit, fitestvéreit és nőtestvéreit,
+sőt **még a maga lelkét is,**
 nem lehet az én tanítványom.</i>”
 
 Vagy:
