@@ -1,0 +1,4 @@
+<blockquote class="epigraph">
+{{ body | markdown | safe }}
+<p class="source"><cite>{% if url %}<a href="{{ url }}">{{ source }}</a>{% else %}{{ source }}{% endif %}</cite></p>
+</blockquote>
