@@ -95,7 +95,7 @@ egyre mélyebbre süllyednek
 az egyre lélektelenebb pornóba,
 és talán éppen azon ügyködnék,
 hogy miként szerezzek elég pénzt
-egy élethű amerikai, japán vagy kínai szexbábúra.
+egy élethű amerikai, japán vagy kínai szexbábura.
 Valahol itt tartanék.
 
 Valahol itt tartanék,
