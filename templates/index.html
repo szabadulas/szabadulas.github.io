@@ -2,23 +2,31 @@
 
 {% block title %}Szabadulás{% endblock %}
 
+{% block header %}
+    <header>
+        <h1 class="site-title">Szabadulás</h1>
+    </header>
+{% endblock %}
+
 {% block content -%}
     <main>
-        <h1 class="site-title">Szabadulás</h1>
 
         {% set MONTHS = [ "", "januárja", "februárja", "márciusa", "áprilisa", "májusa", "júniusa", "júliusa", "augusztusa", "szeptembere", "novembere", "decembere"] %}
         {% for year, year_posts in section.pages | group_by(attribute="year") %}
-            {% for month, posts in year_posts | group_by(attribute="month") %}
-                <h2>{{ year }} {{ MONTHS[month] }}</h2>
-                <ul class="posts">
-                    {% for post in posts %}
-                        <li>
-                            <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
-                            • <small class="date">{{ post.date | date(format="%Y. %m. %d.") }}</small>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endfor %}
+            {% if year != "2000" %}
+                {% for month, posts in year_posts | group_by(attribute="month") %}
+                    <h2>{{ year }} {{ MONTHS[month] }}</h2>
+                    <ul class="posts">
+                        {% for post in posts %}
+                            <li>
+                                <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
+                                <span class="gap">&nbsp;</span>
+                                <small class="date" title="{{ post.date | date(format='%Y. %m. %d.') }}">{{ post.date | date(format="(%m. %d.)") }}</small>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
+            {% endif %}
         {% endfor %}
 
         {{ section.content | safe }}
