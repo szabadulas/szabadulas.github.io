@@ -15,6 +15,8 @@ hide_date = true
 
 [Dobra Tibor](https://www.youtube.com/@tibordobra4241/videos)
 
+[Ébreszt-Ő](https://www.youtube.com/@bera30/videos)
+
 [Elveszett bárány](https://www.youtube.com/@elveszettbarany/videos)
 
 [Fügefa árnyéka](https://www.youtube.com/@istenkeze/videos)
@@ -38,6 +40,8 @@ az övé.)
 [Mennyei morzsa](https://www.youtube.com/@ottilialaszlo7764/videos)
 
 [Ne félj; csak higyj](https://www.youtube.com/@nefeljcsakhigyj/videos)
+
+[Olajlámpás](https://www.youtube.com/@olajlampas6229/videos)
 
 [Samáriai asszony](https://samariai-asszony.blog.hu/)
 
