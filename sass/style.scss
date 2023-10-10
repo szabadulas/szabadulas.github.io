@@ -199,3 +199,20 @@ main > div#kapcsolat {
         right: 0;
     }
 }
+
+ul.toc {
+    background: rgba($tint, 5%);
+    margin: 0;
+    padding: 1.5rem;
+    border: 1px solid $dimmer;
+}
+
+div.intro {
+    font-weight: 600;
+    /*
+    font-style: italic;
+    em, i {
+        font-style: normal;
+    }
+    */
+}
