@@ -7,6 +7,6 @@ date = 2023-11-03
 
 (Ha olvasni akarod magyarul,
 kapcsold be a feliratokat,
-és a válaszd a magyar nyelvet
+és válaszd a magyar nyelvet
 a beállításoknál.)
 
