@@ -8,6 +8,6 @@ minify_html = true
 generate_feed = false
 
 [markdown]
-highlight_code = false
+highlight_code = true
 render_emoji = false
 smart_punctuation = false
