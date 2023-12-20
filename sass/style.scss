@@ -179,8 +179,10 @@ body > footer > ul {
 
 main > div#kapcsolat {
     text-align: center;
-    padding-top: 100vh;
-    //border-top: 1px solid $dimmer;
+    margin-top: 3rem;
+    border: 1px solid $dimmer;
+    padding: 0 0.5rem;
+    background: rgba($tint, 5%);
 }
 
 // https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
