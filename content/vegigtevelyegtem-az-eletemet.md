@@ -13,12 +13,12 @@ a [Kiáltó szó][@kiáltószó],
 majd onnan kiindulva mások.
 Tőlük hallottam, hogy
 
-<big>Isten és Jézus Krisztus élő, eleven valóság.
+<span class="big">Isten és Jézus Krisztus élő, eleven valóság.
 Az ember pedig személyesen hozzájuk fordulhat;
 nem kellenek papok, gyülekezetek, szertartások, vallások.
 Isten hazavár bennünket,
 és mindenkit egyenként visszavezet,
-aki őszintén és alázattal hozzá fordul.</big>
+aki őszintén és alázattal hozzá fordul.</span>
 
 Korábban legjobb esetben is csak legyintettem volna ilyesmire.
 Az utóbbi hét-nyolc év lassú változásai után

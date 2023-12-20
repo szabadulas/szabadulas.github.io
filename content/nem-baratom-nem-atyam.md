@@ -12,7 +12,7 @@ Egy másik alkalommal pedig
 a pápalátogatás körüli felhajtás
 híre ütötte meg a fülemet.
 
-<big>
+<span class="big">
 Emberek, Isten prófétája kijelentette,
 hogy Isten szerint átkozott az, aki embert követ,
 és akinek eltávolodott a szíve az Úrtól.
@@ -21,7 +21,7 @@ Krisztus pedig kijelentette magáról, hogy őt kövessük,
 mert ő az út, az igazság és az élet,
 és csak általa mehetünk az Atyához,
 aki csak egy van.
-</big>
+</span>
 
 Lehet ezt nem tudni.
 Lehet kétségbe vonni, vagy semmibe venni.
