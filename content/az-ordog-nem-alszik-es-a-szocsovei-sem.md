@@ -25,9 +25,9 @@ Lám, ez a néni is kellemes hangon,
 vonzó külsővel, vérvörös szájjal
 okádta bele a nézőkbe a hazugságokat és a halált.
 
-Ha csak ezredannyira lennék hűséges az Atya és Jézus Krisztus iránt,
-mint amennyire ők azok az ő gazdájuk iránt,
-akkor jobb helyzetben lennék, mint most.
+Ha csak ezredannyira lennék hűséges az Atyához és Jézus Krisztushoz,
+mint amennyire ezek az emberek hűségesek az ő gazdájukhoz,
+az már előrelépés lenne.
 Én ha megláthatok valami igazságot, hajlamos vagyok elhallgatni.
 „Hú, hát ez talán nem is olyan nagy dolog;
 ezt akárki megláthatja, nem kell szólnom róla;
