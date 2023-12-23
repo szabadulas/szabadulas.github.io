@@ -5,16 +5,18 @@ set -e
 test -f config.toml
 
 if [ "$(git branch --show-current)" != main ]; then
-    echo "$0: Not on 'main' branch. Aborting."
+    echo "$0: Nem a \"main\" ágon vagy. KILÉPEK."
     exit 1
 fi
 
 if [ "$(git status --short)" != '' ]; then
-    echo "$0: 'main' branch has uncommitted changes:"
+    echo "$0: A \"main\" ágon mentetlen változások vannak:"
     echo
     git status --short
     echo
-    read -s -p 'Ctrl-C: ABORT.  Enter: CONTINUE ANYWAY. '
+    echo 'Ha folytatod, ezek is közzé lesznek téve!'
+    echo
+    read -s -p 'Ctrl-C: KILÉPÉS.  Enter: KÖZZÉTÉTEL. '
     echo
 fi
 
