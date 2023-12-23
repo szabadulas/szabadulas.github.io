@@ -1,7 +1,6 @@
 +++
 title = "Karácsonyi falatok december 23-ára"
 date = 2023-12-23T13:00:00
-draft = true
 [extra]
 toc = true
 +++
