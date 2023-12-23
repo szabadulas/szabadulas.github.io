@@ -10,8 +10,12 @@ if [ "$(git branch --show-current)" != main ]; then
 fi
 
 if [ "$(git status --short)" != '' ]; then
-    echo "$0: 'main' branch has uncommitted changes. Aborting."
-    exit 1
+    echo "$0: 'main' branch has uncommitted changes:"
+    echo
+    git status --short
+    echo
+    read -s -p 'Ctrl-C: ABORT.  Enter: CONTINUE ANYWAY. '
+    echo
 fi
 
 ./build
