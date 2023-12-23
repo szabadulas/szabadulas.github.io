@@ -89,7 +89,7 @@ Mert az európai ember a füle botját sem mozdítja Isten szavára.
 
 …de a nyáj még tévelyegni akar.
 Ma délelőtt akadt meg rajta a szemem
-a Somogyi Napilap címoldalán:
+a Somogyi Hírlap címoldalán:
 
 > Dühös szülők és csalódott gyerekek
 > hallgatták meg a London közelében
