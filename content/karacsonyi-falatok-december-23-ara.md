@@ -89,7 +89,7 @@ Mert az európai ember a füle botját sem mozdítja Isten szavára.
 
 …de a nyáj még tévelyegni akar.
 Ma délelőtt akadt meg rajta a szemem
-a Somogyi Napilapban:
+a Somogyi Napilap címoldalán:
 
 > Dühös szülők és csalódott gyerekek
 > hallgatták meg a London közelében
@@ -130,3 +130,10 @@ mert ilyenkor nagyon nehéz!
 De végtelenül nehezebb neked látnod
 a mi összes vakságunkat.
 Abból gyógyítgatsz engem is.
+
+Add meg nekünk,
+hogy az igazság legyen az első, a második
+és az összes helyen,
+a hazugságnak pedig se helye, se ideje ne legyen!
+Bolondíts bele bennünket az igazságba,
+ábrándíts ki a hazugságokból!
