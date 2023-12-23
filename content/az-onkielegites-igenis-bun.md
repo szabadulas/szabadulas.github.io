@@ -59,7 +59,7 @@ Ha tehát megkívánsz valakit
 (aki nem a feleséged),
 buján képzelegsz róla,
 akkor máris házasságot törtél.
-(Házasságon kívül meg eleve bűnös dolog ez egész.)
+(Házasságon kívül meg eleve bűnös dolog az egész.)
 
 A következő rész zavaros.
 Már nem emlékszem jól.
