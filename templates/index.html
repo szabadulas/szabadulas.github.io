@@ -14,18 +14,20 @@
         {% set MONTHS = [ "", "januárja", "februárja", "márciusa", "áprilisa", "májusa", "júniusa", "júliusa", "augusztusa", "szeptembere", "októbere", "novembere", "decembere"] %}
         {% for year, year_posts in section.pages | group_by(attribute="year") %}
             {% if year != "2000" %}
+                <ul class="posts">
                 {% for month, posts in year_posts | group_by(attribute="month") %}
-                    <h2>{{ year }} {{ MONTHS[month] }}</h2>
-                    <ul class="posts">
+                    {# <h2>{{ year }} {{ MONTHS[month] }}</h2> #}
+                    {# <ul class="posts"> #}
                         {% for post in posts %}
                             <li>
                                 <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
                                 <span class="gap">&nbsp;</span>
-                                <small class="date" title="{{ post.date | date(format='%Y. %m. %d.') }}">{{ post.date | date(format="(%m. %d.)") }}</small>
+                                <small class="date" title="{{ post.date | date(format='%Y. %m. %d.') }}">{{ post.date | date(format="(%Y. %m. %d.)") }}</small>
                             </li>
                         {% endfor %}
-                    </ul>
+                    {# </ul> #}
                 {% endfor %}
+                </ul>
             {% endif %}
         {% endfor %}
 

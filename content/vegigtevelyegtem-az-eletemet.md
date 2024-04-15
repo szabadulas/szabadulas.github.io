@@ -5,11 +5,9 @@ date = 2023-03-12
 hide_date = true
 +++
 
-[@kiáltószó]: https://www.youtube.com/@kialtoszo/videos "Kiáltó szó videói a YouTube-on"
-
 2022 decemberének elején
 került elém egy csatorna  a YouTube-on,
-a [Kiáltó szó][@kiáltószó],
+a Kiáltó szó,
 majd onnan kiindulva mások.
 Tőlük hallottam, hogy
 
